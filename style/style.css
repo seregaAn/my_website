@@ -1,0 +1,38 @@
+header{
+    color: red;
+    background-color: gold;
+    font-family: "Bauhaus 93";
+    letter-spacing: 0.2cm;
+}
+nav{
+    padding-bottom: 20px;
+    margin-top: 3px;
+}
+li{
+    float: left;
+}
+ul{
+    list-style-type: none;
+    overflow: visible;
+}
+li a{
+    display: block;
+    padding: 10px;
+    background-color: darkgray;
+    text-decoration: none;
+    text-align: center;
+}
+/*nav menüüs link*/
+li a:hover{
+    background-color: burlywood;
+}
+
+main section{
+    border-left: gold;
+
+}
+section#teine{
+    position: absolute;
+    left: 550px;
+    top: 150px;
+}
